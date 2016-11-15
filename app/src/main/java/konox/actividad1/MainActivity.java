@@ -34,8 +34,5 @@ public class MainActivity extends AppCompatActivity {
         textTelefono.setOnClickListener(mainActivityController);
         textEmail.setOnClickListener(mainActivityController);
         textDireccion.setOnClickListener(mainActivityController);
-
-
-
     }
 }
