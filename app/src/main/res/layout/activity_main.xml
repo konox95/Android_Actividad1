@@ -54,7 +54,8 @@
         android:layout_marginEnd="29dp"
         android:layout_below="@+id/editText_Email"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        android:enabled="false" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -65,7 +66,8 @@
         android:layout_below="@+id/editText_Name"
         android:layout_alignLeft="@+id/editText_Telefono"
         android:layout_alignStart="@+id/editText_Telefono"
-        android:layout_marginTop="16dp" />
+        android:layout_marginTop="16dp"
+        android:enabled="false" />
 
         <TextView
         android:text="Direccion"
@@ -104,7 +106,8 @@
         android:layout_alignRight="@+id/editText_Telefono"
         android:layout_alignEnd="@+id/editText_Telefono"
         android:layout_marginTop="26dp"
-        android:id="@+id/editText_Adress" />
+        android:id="@+id/editText_Adress"
+        android:enabled="false" />
 
         <DatePicker
             android:layout_width="wrap_content"
@@ -136,7 +139,8 @@
             android:layout_alignRight="@+id/editText_Email"
             android:layout_alignEnd="@+id/editText_Email"
             android:layout_marginRight="23dp"
-            android:layout_marginEnd="23dp" />
+            android:layout_marginEnd="23dp"
+            android:enabled="false" />
 
         <ImageView
             android:layout_width="wrap_content"
